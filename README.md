@@ -1,7 +1,7 @@
 # goodstuff
 
 ## Bash Skript Start nohup loop
-
+```
 #!/usr/bin/env bash
 set -euo pipefail
 
@@ -37,3 +37,4 @@ while true; do
     echo "⏸️ Warte $PAUSE Sekunden..."
     sleep "$PAUSE"
 done
+```
